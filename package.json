@@ -1,0 +1,30 @@
+{
+  "name": "sequelize-cache",
+  "version": "0.0.1",
+  "description": "sequelize plugin that caches find* responses",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --globals setImmediate,clearImmediate --check-leaks --colors -t 10000 --reporter spec $(find test/* -name '*.test.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/findhit/sequelize-cache.git"
+  },
+  "keywords": [
+    "sequelize",
+    "plugin",
+    "cache",
+    "stores",
+    "redis",
+    "memcache",
+    "hooks",
+    "findhit",
+    "junglecloud"
+  ],
+  "author": "José Moreira <jose.moreira@findhit.com>",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/findhit/sequelize-cache/issues"
+  },
+  "homepage": "https://github.com/findhit/sequelize-cache"
+}
